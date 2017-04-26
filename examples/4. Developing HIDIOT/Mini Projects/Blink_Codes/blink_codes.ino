@@ -4,7 +4,7 @@ const int ledPin = 1;
 const int numberDelay = 2000; // Wait two seconds betwen random numbers
 int waitOn = 500; // 0.5 Seconds
 int waitOff = 500; // 0.5 Seconds
-int blinks = 4; // Chosen by dice roll, guaranteed to be random but should be overwritten by the random() function
+int blinks = 11; // Our initial number of blinks. If we see 11 blinks, we know something is wrong with our code
 int i = 0; // A throwaway variable for our while loop
 
 void setup() {                
