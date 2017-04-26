@@ -14,7 +14,8 @@ void loop() {
   digitalWrite(ledPin, HIGH); // Make the LED turn on
   delay(waitOn);               // wait
   if (waitOn > 0){
-    waitOn = waitOn -5;
+    waitOn = waitOn - 10;
+	waitOff = waitOff - 5;
   }
 
   if (waitOn > 0){
