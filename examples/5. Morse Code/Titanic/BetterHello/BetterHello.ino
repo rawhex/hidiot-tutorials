@@ -21,11 +21,13 @@ void send(char c){
       on();
       delay(UNIT*3);
       off();
+      delay(UNIT);
       break;
     case '.':
       on();
       delay(UNIT);
       off();
+      delay(UNIT);
       break;
     case ' ':
       delay(UNIT*3);
